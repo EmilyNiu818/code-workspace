@@ -42,16 +42,19 @@ body{
 }
 
 .logo{
-    font-size:28px;
+    font-family: Caveat;
+    font-size:30px;
     color:white;
     text-decoration:none;
 }
 
 .nav-links a{
+    font-family: Caveat;
+    font-size:25px;
     color:white;
     text-decoration:none;
     margin-left:25px;
-    transition:0.3s;
+    transition:05.3s;
 }
 
 .nav-links a:hover{
@@ -166,7 +169,8 @@ body{
 }
 
 .about p{
-    font-size:18px;
+    font-family: Caveat;
+    font-size:25px;
 }
 
 /* ==========================
@@ -309,14 +313,6 @@ body{
 
 }
 
-.contact input:focus,
-.contact textarea:focus{
-
-    outline:none;
-
-    border-color:#2a9d8f;
-
-}
 .contact input,
 .contact textarea{
 
@@ -331,6 +327,14 @@ body{
     border-radius:8px;
 
     font-size:16px;
+
+}
+.contact input:focus,
+.contact textarea:focus{
+
+    outline:none;
+
+    border-color:#2a9d8f;
 
 }
 
